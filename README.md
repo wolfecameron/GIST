@@ -1,9 +1,19 @@
-# Repository for GIST
+# GIST: Distributed Training for Large-Scale GCNs
 
-## Introduction
-This is a public code repository for the publication "GIST: Distributed Training
-for Large-Scale Graph Convolutional Networks", which is available on Arxiv
-(https://arxiv.org/abs/2102.10424). GIST enables the training of large-scale
+
+[![paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2108.11941)
+&nbsp;
+[![blogpost](https://img.shields.io/badge/Blog%20Post-medium-2596be)](https://towardsdatascience.com/effortless-distributed-training-of-ultra-wide-gcns-6e9873f58a50)
+&nbsp;
+[![video](https://img.shields.io/badge/Video-YouTube-ff2038)](https://www.youtube.com/watch?v=lc9rYKHkgv0&ab_channel=ResearchMadeSimple)
+&nbsp;
+
+
+This is a public code repository for the publication:
+> [**GIST: Distributed Training for Large-Scale Graph Convolutional Networks**](https://arxiv.org/abs/2102.10424)<br>
+> Cameron R Wolfe, Jingkang Yang, Arindam Chowdhury, Chen Dun, Artun Bayer, Santiago Segarra, Anastasios Kyrillidis<br>
+
+GIST enables the training of large-scale
 GCNs (i.e., hidden layers with tens of thousands of nodes) with minimal training
 time using a distributed, independent sub-GCN training methodology.
 Our implementation is based on the Deep Graph Library (DGL) and we base many of
@@ -15,11 +25,11 @@ for DGL is available online (https://www.dgl.ai).
 Requires anaconda to be installed (python3)
 Anaconda can be installed at https://www.anaconda.com/products/individual
 
-> conda create -n gist python=3.6 anaconda
-
-> conda activate gist
-
-> pip install -r requirements.txt
+```bash
+conda create -n gist python=3.6 anaconda
+conda activate gist
+pip install -r requirements.txt
+```
 
 ## File Arrangement
 
