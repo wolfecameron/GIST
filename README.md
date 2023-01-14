@@ -1,7 +1,7 @@
 # GIST: Distributed Training for Large-Scale GCNs
 
 
-[![paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2108.11941)
+[![paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2102.10424)
 &nbsp;
 [![blogpost](https://img.shields.io/badge/Blog%20Post-medium-2596be)](https://towardsdatascience.com/effortless-distributed-training-of-ultra-wide-gcns-6e9873f58a50)
 &nbsp;
